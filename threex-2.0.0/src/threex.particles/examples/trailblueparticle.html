@@ -20,7 +20,7 @@
 	mesh.scale.multiplyScalar(0.1)
 	scene.add( mesh );
 
-	loop.hook(function(delta, now){
+	loop.hook(function(delta, now){ 
 		var angle	= 0.05 * now * Math.PI * 2;
 		mesh.position.x	= Math.cos(angle*3.0) * 2
 		mesh.position.y	= Math.sin(angle*1.3) * 1
